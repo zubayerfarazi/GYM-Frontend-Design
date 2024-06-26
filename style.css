@@ -1,0 +1,576 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Navigation */
+.navigation-header {
+  padding: 0 15px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-header .gym {
+  background-color: #6765f0;
+  color: white;
+  border-radius: 5px;
+}
+
+.navigation-header .baran {
+  color: #6765f0;
+}
+
+nav {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+}
+.navigation-items {
+  display: flex;
+  gap: 40px;
+}
+.navigation-items > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.4s ease-in-out;
+}
+.navigation-items > a:hover {
+  color: orange;
+}
+
+.loginButton {
+  border: none;
+}
+
+.loginButton a {
+  background: rgba(38, 67, 115, 1);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+
+/* Hero Section Starts */
+.hero {
+  padding: 70px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstPart {
+  text-align: left;
+}
+.firstPartHeader {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.fresh {
+  color: #6765f0;
+}
+.firstPartParagraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-align: justify;
+}
+.getStartedButton {
+  background: rgba(38, 67, 115, 1);
+  color: white;
+  width: 220px;
+  height: 56px;
+  top: 553px;
+  left: 82px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 10px 0 0;
+}
+.learnMoreButton {
+  background: rgba(255, 255, 255, 1);
+  color: rgba(38, 67, 115, 1);
+  width: 174px;
+  height: 56px;
+  top: 553px;
+  left: 363px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.brandSection {
+  width: 462.38px;
+  height: 98.94px;
+  top: 660px;
+  left: 82px;
+  padding: 20px 0;
+}
+.brands {
+  width: 60px;
+  height: 24px;
+  top: 660px;
+  left: 82px;
+  gap: 0px;
+  opacity: 0px;
+}
+.brandImages {
+  width: 440px;
+  height: 63.94px;
+  top: 695px;
+  left: 82px;
+}
+/* Hero Section end */
+
+/* Health in side section start */
+.healthInSide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+.lastPartOfHealth {
+  width: 50%;
+}
+.firstPartOfHealth p {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: left;
+}
+.lastPartOfHealth p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+/* Health in side section end */
+
+/* static bar starts */
+.staticBar {
+  background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+  width: 1236px;
+  height: 274px;
+  top: 1145px;
+  left: 102px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mainStaticBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+.firstMainStaticBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.firstMainStaticBar .image {
+  padding: 10px;
+  background-color: #8987f2;
+  border-radius: 10px;
+}
+.firstMainPara {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1%;
+  text-align: left;
+  width: 150px;
+  color: white;
+}
+.buttonMainPara {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  padding: 10px 0 0 0;
+}
+.lastMainPara {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1%;
+  text-align: left;
+  width: 93px;
+  height: 28px;
+  top: 1304px;
+  left: 317px;
+  opacity: 50%;
+  color: rgba(255, 255, 255, 1);
+}
+/* static bar ends */
+
+/* best full body starts */
+.bestFullBody {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lastPartOfBestFullBodyHeader {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: left;
+}
+.lastPartOfBestFullBodyPara {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+/* best full body ends */
+
+/* daily work out starts */
+.dailyWorkOut {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* daily work out ends */
+
+/* how it works starts */
+.howItWorks {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.firstPartOfHowItWorks {
+  width: 605px;
+  height: 444.14px;
+  top: 2759px;
+  left: 106px;
+  gap: 0px;
+  opacity: 0px;
+}
+.lastPartOfHowItWorks p {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: left;
+}
+.lastPartOfHowItWorks ul {
+  list-style-type: none;
+}
+.lastPartOfHowItWorks ul li {
+  margin: 10px;
+}
+.lastPartOfHowItWorks ul li.first-li {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 80px 0px rgba(51, 78, 123, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.lastPartOfHowItWorks ul li.second-li {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 80px 0px rgba(51, 78, 123, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 80%;
+}
+/* how it works ends */
+
+/* programs that can be taken starts */
+.programTaken {
+  padding: 40px 0;
+}
+.programTakenHeader p {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: center;
+}
+.programTakenBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.firstPartOfProgramTakenBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 400px;
+  padding: 30px;
+}
+.firstPartOfProgramTakenBody img {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(45.98deg, #5478ef 19.69%, #d6dfff 92.63%);
+  border-radius: 50%;
+  padding: 10px;
+}
+.bodyPara {
+  padding: 0 0 20px 0;
+  font-weight: bold;
+}
+.bodyParaNext {
+  opacity: 50%;
+}
+/* programs that can be taken ends */
+
+/* testimonial starts */
+.testimonialPara {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: center;
+}
+.testimonialBody {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.testimonialItems {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 80px 0px rgba(51, 78, 123, 0.1);
+  padding: 40px;
+  top: 4028px;
+  left: 117px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.innerBody p {
+  opacity: 30%;
+}
+.testimonialfinal {
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* testimonial ends
+
+/* footer start */
+footer {
+  background-image: url("./images/Rectangle\ 258.png");
+}
+.footerFlexFullPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 50px;
+}
+.footerFlexFullPart .footerGym {
+  background-color: white;
+  color: #6765f0;
+  font-weight: bold;
+  padding: 1px;
+  border-radius: 5px;
+}
+.footerFlexFullPart .footerBaran {
+  color: white;
+  font-size: 20px;
+}
+
+.footerFirstPart p {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footerPara {
+  width: 60%;
+}
+.footerNavPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footerNavPartBroad p {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.footerNavPart ul li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.footerNavPartBroad {
+  display: flex;
+  flex-direction: column;
+}
+.footerImage img {
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(226, 117, 205, 1);
+}
+/* footer end */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  .hamburger #closeHam {
+    display: none;
+  }
+  .navigation-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagePart img {
+    padding: 40px 0 0 0;
+    width: 400px;
+    height: 400px;
+    margin: 0 30px;
+  }
+  .healthInSide {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 90px;
+  }
+  .firstPartOfHealth p {
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0 0 20px 0;
+  }
+  .lastPartOfHealth {
+    width: 100%;
+  }
+  .staticBar {
+    width: 380px;
+    height: 512px;
+    border-radius: 30px;
+    margin: 40px 170px;
+  }
+  .mainStaticBar {
+    display: flex;
+    flex-direction: column;
+  }
+  .bestFullBody {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px 90px;
+  }
+  .firstPartOfBestFullBody {
+    padding: 20px 0;
+  }
+  .firstPartOfBestFullBody img {
+    width: 400px;
+    height: 400px;
+    margin: 0 30px;
+  }
+  .lastPartOfBestFullBodyHeader {
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0 0 20px 0;
+  }
+  .dailyWorkOut {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 90px;
+  }
+  .howItWorks {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    padding: 0 90px;
+  }
+  .firstPartOfHowItWorks img {
+    width: 400px;
+    height: 400px;
+    margin: 0 30px;
+  }
+  .lastPartOfHowItWorks p {
+    font-weight: bold;
+    padding: 20px 0 0 0;
+  }
+  .programTakenHeader p {
+    text-align: left;
+    padding: 0 90px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  .programTakenBody {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px;
+  }
+  .firstPartOfProgramTakenBody {
+    width: 100%;
+    height: 100px;
+  }
+  .testimonialPara {
+    text-align: start;
+    padding: 20px 0 0 90px;
+    font-weight: bold;
+  }
+  .testimonialBody {
+    padding: 0 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 90px;
+  }
+  .footerFlexFullPart {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerNavPart {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: start;
+  }
+}
